@@ -8,4 +8,17 @@ Objetivos Específicos são:
 ● Escolher o framework web mais adequado para a implementação do sistema.
 ● Projetar a arquitetura do sistema, incluindo a modelagem do banco de dados.
 ● Implementar as funcionalidades do sistema de acordo com os requisitos
-levantados e a arquitetura definida
+levantados e a arquitetura definida.
+
+Importação de Bibliotecas:
+requests: Para fazer requisições HTTP à API do INEP.
+pandas: Para manipulação e análise de dados.
+json: Para converter a resposta da API em um formato Python.
+Função get_censo_data:
+Realiza a requisição à API do INEP com base nos parâmetros fornecidos.
+Retorna os dados da API em formato JSON.
+Função save_to_csv:
+Converte os dados em um DataFrame do Pandas.
+Salva os dados em um arquivo CSV.
+
+
